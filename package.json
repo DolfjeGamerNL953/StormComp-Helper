@@ -1,0 +1,17 @@
+{
+  "name": "stormcompany-helper",
+  "version": "1.0.0",
+  "description": "StormCompany Helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DolfjeGamerNL",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "weather.js": "^0.1.0"
+  }
+}
