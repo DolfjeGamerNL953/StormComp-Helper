@@ -52,7 +52,7 @@ bot.on('message', message => {
       // We can output it two ways 1. Send to DMs and tell them that they sent to DMs in chat. 2. Post commands in chat [since commands]
       message.author.send({ embed })
       // Post in chat they sent to DMs
-      var icon = message.guild.iconURL
+        var icon = bot.user.displayAvatarURL
 
       var sendEmbed = new Discord.RichEmbed()
         .setTitle("Help Menu")
@@ -80,7 +80,7 @@ bot.on('message', message => {
         }
       }
 
-      var icon = message.guild.iconURL
+      var icon = bot.user.displayAvatarURL
 
       var groupEmbed = new Discord.RichEmbed()
       .setTitle("Groepen")
@@ -137,7 +137,7 @@ bot.on('message', message => {
         message.author.send({ embed })
         //.
 
-        var icon = message.guild.iconURL
+        var icon = bot.user.displayAvatarURL
 
         var senderEmbed = new Discord.RichEmbed()
         .setTitle("Help Menu")
@@ -179,7 +179,7 @@ bot.on('message', message => {
       // Lets post in chat if nothing is found!
       if (commandFound === '') {
 
-        var icon = message.guild.iconURL
+        var icon = bot.user.displayAvatarURL
 
         var nogroupEmbed = new Discord.RichEmbed()
         .setColor('RANDOM')
@@ -193,7 +193,7 @@ bot.on('message', message => {
 
       // Since this one is smaller, lets send the embed differently
 
-      var icon = message.guild.iconURL
+      var icon = bot.user.displayAvatarURL
 
       var commandEmbed = new Discord.RichEmbed()
       .setTitle('<> means required, [] means optional')
