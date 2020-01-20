@@ -226,4 +226,4 @@ bot.on('ready', () => {
   console.log(`${bot.user.username} is ingelogd bij StormCompany`)
 });
 
-bot.login(botconfig.token);
+bot.login(process.env.token);
