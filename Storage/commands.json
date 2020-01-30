@@ -35,12 +35,6 @@
         "gebruik": "heads",
         "beschrijving": "Laat de prijzen zien van de Afdeling: Heads"
     },
-    "8ball": {
-        "name": "8ball",
-        "group": "Gebruiker",
-        "gebruik": "8ball <vraag>",
-        "beschrijving": "Stel een vraag aan de bot"
-    },
     "ideecomp": {
         "name": "ideecomp",
         "group": "Gebruiker",
@@ -95,162 +89,190 @@
         "gebruik": "ticket <reden>",
         "beschrijving": "Maak een ticket aan"
     },
-"crew": {
-    "name": "crew",
-    "group": "Gebruiker",
-    "gebruik": "crew",
-    "beschrijving": "Laat alle medewerkers van de company zien"
-},
-"eten": {
-    "name": "eten",
-    "group": "Gebruiker",
-    "gebruik": "eten",
-    "beschrijving": "Krijg een eten bericht van de bot"
-},
-"goedemorgen": {
-    "name": "goedemorgen",
-    "group": "Gebruiker",
-    "gebruik": "goedemorgen",
-    "beschrijving": "Krijg een goedemorgen bericht van de bot"
-},
-"goedemiddag": {
-    "name": "goedemiddag",
-    "group": "Gebruiker",
-    "gebruik": "goedemiddag",
-    "beschrijving": "Krijg een goedemiddag bericht van de bot"
-},
-"goedenavond": {
-    "name": "goedenavond",
-    "group": "Gebruiker",
-    "gebruik": "goedenavond",
-    "beschrijving": "Krijg een goedenavond bericht van de bot"
-},
-"meme": {
-    "name": "meme",
-    "group": "Gebruiker",
-    "gebruik": "meme",
-    "beschrijving": "Krijg een meme"
-},
-"slapen": {
-    "name": "slapen",
-    "group": "Gebruiker",
-    "gebruik": "slapen",
-    "beschrijving": "Krijg een slaapwel/weltrusten bericht van de bot"
-},
-"addrole": {
-    "name": "addrole",
-    "group": "Head Admin",
-    "gebruik": "addrole <",
-    "beschrijving": "Voeg een role bij een gebruiker toe"
-},
-"clear": {
-    "name": "clear",
-    "group": "Head Admin",
-    "gebruik": "clear <aantal>",
-    "beschrijving": "Verwijder een bepaald aantal berichten"
-},
-"giveaway": {
-    "name": "giveaway",
-    "group": "Head Admin",
-    "gebruik": "giveaway <aantal winners> <tijd> <prijs>",
-    "beschrijving": "Maak een giveaway aan"
-},
-"mededeling": {
-    "name": "mededeling",
-    "group": "Head Admin",
-    "gebruik": "mededeling [Titel // Bericht // Kleur // Kanaal]",
-    "beschrijving": "Maak een mededeling"
-},
-
-"ticketclose": {
-    "name": "ticketclose",
-    "group": "Head Admin",
-    "gebruik": "ticketclose",
-    "beschrijving": "Sluit een ticket"
-},
-"unban": {
-    "name": "unban",
-    "group": "Head Admin",
-    "gebruik": "unban <gebruiker> <reden>",
-    "beschrijving": "Geef een gebruiker een unban op de server"
-},
-
-"unmute": {
-    "name": "unmute",
-    "group": "Head Admin",
-    "gebruik": "unmute <gebruiker>",
-    "beschrijving": "Unmute een gebruiker op de server"
-},
-"ban": {
-    "name": "ban",
-    "group": "Moderator",
-    "gebruik": "ban <gebruiker> <reden>",
-    "beschrijving": "Geef een gebruiker een permanente ban"
-},
-"kick": {
-    "name": "kick",
-    "group": "Moderator",
-    "gebruik": "kick <gebruiker> <reden>",
-    "beschrijving": "Kick een gebruiker van de server"
-},
-"tempban": {
-    "name": "tempban",
-    "group": "Moderator",
-    "gebruik": "tempban <gebruiker> <tijd> <reden>",
-    "beschrijving": "Verban een gebruiker tijdelijk van de server"
-},
-"tempmute": {
-    "name": "tempmute",
-    "group": "Moderator",
-    "gebruik": "tempmute <gebruiker> <tijd> <reden>",
-    "beschrijving": "Mute een gebruiker tijdelijk op de server"
-},
-"warn": {
-    "name": "warn",
-    "group": "Moderator",
-    "gebruik": "warn <gebruiker> <reden>",
-    "beschrijving": "Geef een waarschuwing aan een gebruiker op de server"
-},
-"sps": {
-    "name": "sps",
-    "group": "Games",
-    "gebruik": "sps <steen, papier of schaar>",
-    "beschrijving": "Speel steen, papier, schaar met de bot"
-},
-"serverinfo": {
-    "name": "Serverinfo",
-    "group": "informatie",
-    "gebruik": "serverinfo",
-    "beschrijving": "Laat info van de server zien"
-},
-"userinfo": {
-    "name": "userinfo",
-    "group": "informatie",
-    "gebruik": "userinfo",
-    "beschrijving": "Laat u user info zien"
-},
-"botinfo": {
-"name": "botinfo",
-"group": "informatie",
-"gebruik": "botinfo",
-"beschrijving": "Laat info over de bot zien"
-},
-"info": {
-    "name": "info",
-    "group": "informatie",
-    "gebruik": "info",
-    "beschrijving": "Laat info zien"
-},
-"ip": {
-    "name": "ip",
-    "group": "informatie",
-    "gebruik": "ip",
-    "beschrijving": "Laat informatie over de minecraft server zien"
-},
-"help": {
-    "name": "help",
-    "group": "help",
-    "gebruik": "help groups om de groepen te zien en/of .help <groepnaam> om de commands van die groep te zien",
-    "beschrijving": "Krijg het help menu te zien"
-}
+    "crew": {
+        "name": "crew",
+        "group": "informatie",
+        "gebruik": "crew",
+        "beschrijving": "Laat alle medewerkers van de company zien"
+    },
+    "addrole": {
+        "name": "addrole",
+        "group": "Management",
+        "gebruik": "addrole <",
+        "beschrijving": "Voeg een role bij een gebruiker toe"
+    },
+    "clear": {
+        "name": "clear",
+        "group": "Management",
+        "gebruik": "clear <aantal>",
+        "beschrijving": "Verwijder een bepaald aantal berichten"
+    },
+    "giveaway": {
+        "name": "giveaway",
+        "group": "Management",
+        "gebruik": "giveaway <aantal winners> <tijd> <prijs>",
+        "beschrijving": "Maak een giveaway aan"
+    },
+    "mededeling": {
+        "name": "mededeling",
+        "group": "Management",
+        "gebruik": "mededeling [Titel // Bericht // Kleur // Kanaal]",
+        "beschrijving": "Maak een mededeling"
+    },
+    "ticketclose": {
+        "name": "ticketclose",
+        "group": "Management",
+        "gebruik": "ticketclose",
+        "beschrijving": "Sluit een ticket"
+    },
+    "unban": {
+        "name": "unban",
+        "group": "Management",
+        "gebruik": "unban <gebruiker> <reden>",
+        "beschrijving": "Geef een gebruiker een unban op de server"
+    },
+    "unmute": {
+        "name": "unmute",
+        "group": "Management",
+        "gebruik": "unmute <gebruiker>",
+        "beschrijving": "Unmute een gebruiker op de server"
+    },
+    "ban": {
+        "name": "ban",
+        "group": "Moderator",
+        "gebruik": "ban <gebruiker> <reden>",
+        "beschrijving": "Geef een gebruiker een permanente ban"
+    },
+    "kick": {
+        "name": "kick",
+        "group": "Moderator",
+        "gebruik": "kick <gebruiker> <reden>",
+        "beschrijving": "Kick een gebruiker van de server"
+    },
+    "tempban": {
+        "name": "tempban",
+        "group": "Moderator",
+        "gebruik": "tempban <gebruiker> <tijd> <reden>",
+        "beschrijving": "Verban een gebruiker tijdelijk van de server"
+    },
+    "tempmute": {
+        "name": "tempmute",
+        "group": "Moderator",
+        "gebruik": "tempmute <gebruiker> <tijd> <reden>",
+        "beschrijving": "Mute een gebruiker tijdelijk op de server"
+    },
+    "warn": {
+        "name": "warn",
+        "group": "Moderator",
+        "gebruik": "warn <gebruiker> <reden>",
+        "beschrijving": "Geef een waarschuwing aan een gebruiker op de server"
+    },
+    "serverinfo": {
+        "name": "Serverinfo",
+        "group": "informatie",
+        "gebruik": "serverinfo",
+        "beschrijving": "Laat info van de server zien"
+    },
+    "userinfo": {
+        "name": "userinfo",
+        "group": "informatie",
+        "gebruik": "userinfo",
+        "beschrijving": "Laat u user info zien"
+    },
+    "botinfo": {
+        "name": "botinfo",
+        "group": "informatie",
+        "gebruik": "botinfo",
+        "beschrijving": "Laat info over de bot zien"
+    },
+    "info": {
+        "name": "info",
+        "group": "informatie",
+        "gebruik": "info",
+        "beschrijving": "Laat info zien"
+    },
+    "ip": {
+        "name": "ip",
+        "group": "informatie",
+        "gebruik": "ip",
+        "beschrijving": "Laat informatie over de minecraft server zien"
+    },
+    "help": {
+        "name": "help",
+        "group": "help",
+        "gebruik": "help groups om de groepen te zien en/of .help <groepnaam> om de commands van die groep te zien",
+        "beschrijving": "Krijg het help menu te zien"
+    },
+    "eten": {
+        "name": "eten",
+        "group": "fun",
+        "gebruik": "eten",
+        "beschrijving": "Krijg een eten bericht van de bot"
+    },
+    "goedemorgen": {
+        "name": "goedemorgen",
+        "group": "fun",
+        "gebruik": "goedemorgen",
+        "beschrijving": "Krijg een goedemorgen bericht van de bot"
+    },
+    "goedemiddag": {
+        "name": "goedemiddag",
+        "group": "fun",
+        "gebruik": "goedemiddag",
+        "beschrijving": "Krijg een goedemiddag bericht van de bot"
+    },
+    "goedenavond": {
+        "name": "goedenavond",
+        "group": "fun",
+        "gebruik": "goedenavond",
+        "beschrijving": "Krijg een goedenavond bericht van de bot"
+    },
+    "meme": {
+        "name": "meme",
+        "group": "fun",
+        "gebruik": "meme",
+        "beschrijving": "Krijg een meme"
+    },
+    "slapen": {
+        "name": "slapen",
+        "group": "fun",
+        "gebruik": "slapen",
+        "beschrijving": "Krijg een slaapwel/weltrusten bericht van de bot"
+    },
+    "sps": {
+        "name": "sps",
+        "group": "fun",
+        "gebruik": "sps <steen, papier of schaar>",
+        "beschrijving": "Speel steen, papier, schaar met de bot"
+    },
+    "8ball": {
+        "name": "8ball",
+        "group": "fun",
+        "gebruik": "8ball <vraag>",
+        "beschrijving": "Stel een vraag aan de bot"
+    },
+    "rekening": {
+        "name": "rekening",
+        "group": "Economy",
+        "gebruik": "*rekening",
+        "beschrijving": "Laat je rekening op de StormComp discord zien"
+    },
+    "daily": {
+        "name": "daily",
+        "group": "Economy",
+        "gebruik": "*daily",
+        "beschrijving": "Krijg u dagelijkse beloning"
+    },
+    "global": {
+        "name": "global",
+        "group": "Economy",
+        "gebruik": "*global",
+        "beschrijving": "Laat global stats van de server zien"
+    },
+    "work": {
+        "name": "work",
+        "group": "work",
+        "gebruik": "*work",
+        "beschrijving": "Ga een paar uur werken"
+    }
 }

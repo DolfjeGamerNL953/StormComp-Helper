@@ -125,7 +125,7 @@ bot.on('message', message => {
             // Lets also count commandsFound + 1 every time it finds a command in the group
             commandsFound++
             // Lets add the command field to the embed
-            embed.addField(`**${commands[cmd].name}**`, `**Gebruik:** ${'!' + commands[cmd].gebruik}\n**Beschrijving:** ${commands[cmd].beschrijving}`);
+            embed.addField(`**${commands[cmd].name}**`, `**Gebruik:** ${commands[cmd].gebruik}\n**Beschrijving:** ${commands[cmd].beschrijving}`);
           }
 
         }
